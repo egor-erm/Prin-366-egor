@@ -13,3 +13,5 @@ def generate2():
         if x ** 2 + y ** 2 > 1:
             continue
         return (x, y)
+
+print(generate1())
