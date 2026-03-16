@@ -1,12 +1,12 @@
 from random import uniform
 from math import cos, sin, pi
 
-def generate1():
+def generate1(): # generate standart dots
     a = uniform(0, 1)
     b = uniform(0, 1)
     return (a * cos(2 * pi * b), a * sin(2 * pi * b))
 
-def generate2():
+def generate2(): # another generator
     while True:
         x = uniform(-1, 1)
         y = uniform(-1, 1)
