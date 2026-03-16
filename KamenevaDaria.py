@@ -17,7 +17,7 @@ def generate_example():
             result = a * b
             example = f"{a} × {b}"
     return example, result
-
+# comment2
 def math_quiz():
     score = 0
     total = 5
