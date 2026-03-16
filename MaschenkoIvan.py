@@ -15,3 +15,5 @@ def generate2():
         return (x, y)
 
 print(generate1())
+
+print(generate2())
