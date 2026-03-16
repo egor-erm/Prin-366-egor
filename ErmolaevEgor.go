@@ -30,8 +30,8 @@ func NewTodoList() *TodoList {
 }
 
 func main() {
-	todoList := NewTodoList()
-	reader := bufio.NewReader(os.Stdin)
+	todoList := NewTodoList()           // создаём экземпляр менеджера
+	reader := bufio.NewReader(os.Stdin) // создаём reader для чтения консоли
 
 	fmt.Println("📋 Менеджер задач")
 	fmt.Println("==================")
