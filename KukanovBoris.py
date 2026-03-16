@@ -1,6 +1,6 @@
-firstNumber = int(input("Введите первое число: "))
+firstNumber = int(input("Введите первое число: ")) # Ввод первого числа
 
-secondNumber = int(input("Введите второе число: "))
+secondNumber = int(input("Введите второе число: ")) # Ввод второго числа
 
 operation = int(input("Введите номер операции:\n"
                       "1. +\n"
